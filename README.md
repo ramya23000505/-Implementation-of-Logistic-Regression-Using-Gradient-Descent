@@ -20,13 +20,12 @@ Define a function for costFunction,cost and gradient.
 Define a function to plot the decision boundary and predict the Regression value 
 
 ## Program:
-```
 Program to implement the the Logistic Regression Using Gradient Descent.
 
 Developed by: RAMYA R
 
 RegisterNumber:212223230169
-
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -105,7 +104,6 @@ print(Y)
 xnew= np.array([[0,87,0,95,0,2,0,0,1,0,0,0]])
 y_prednew=predict(theta,xnew)
 y_prednew
-*/
 ```
 
 ## Output:
